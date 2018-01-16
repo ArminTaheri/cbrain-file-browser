@@ -2,6 +2,7 @@
   "name": "cbrain-file-browser",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://armintaheri.github.io/cbrain-file-browser",
   "dependencies": {
     "immutable": "^3.8.2",
     "most": "^1.7.2",
@@ -11,6 +12,8 @@
     "recompose": "^0.26.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
