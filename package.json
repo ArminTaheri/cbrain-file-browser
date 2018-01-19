@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://armintaheri.github.io/cbrain-file-browser",
+  "proxy": "http://localhost:3000",
   "dependencies": {
     "immutable": "^3.8.2",
     "most": "^1.7.2",
